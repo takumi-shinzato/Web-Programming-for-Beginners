@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div id="question-title">
+            QUESTION
+        </div>
+
+        <div id="js-question">
+            ここに問題文が書かれます。
+        </div>
+
+        <div class="choice-container">
+            <button class="js-choice">選択肢1</button>
+            <button class="js-choice">選択肢2</button>
+            <button class="js-choice">選択肢3</button>
+            <button class="js-choice">選択肢4</button>
+        </div>
+
+        <div>
+            <button id="next-question" disabled>次の問題</button>
+        </div>
+
+    </div>
+
+    <script src="quizData.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
